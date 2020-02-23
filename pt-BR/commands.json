@@ -4,7 +4,7 @@
         "option-not-found": "você só pode escolher entre `pedra`, `papel` ou `tesoura`.",
         "you-win": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`. Parabéns, parece que você ganhou! Estou depositando `{{value}}` yens na sua conta.",
         "tie": "parece que empatamos! Ninguém ganhou ou perdeu.",
-        "you-lose": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`. Parece que eu ganhei, yay! estou tirando `{{value}}` yens da sua conta, ok?",
+        "you-lose": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`. Parece que eu ganhei, yay! Estou tirando `{{value}}` yens da sua conta, ok?",
         "value-not-inputed": "você não colocou nenhum valor para apostar comigo."
     },
     "no-premium": "este servidor não é premium, parceiro ou verificado.",
