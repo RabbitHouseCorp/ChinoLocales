@@ -2,9 +2,9 @@
     "ppt": {
         "args-null": "você não escolheu nenhuma das opções.",
         "option-not-found": "você só pode escolher entre `pedra`, `papel` ou `tesoura`.",
-        "you-win": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`. Parabéns, parece que você ganhou! Estou depositando `{{value}}` yens na sua conta.",
+        "you-win": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`, parabéns, parece que você ganhou, estou depositando `{{value}}` yens na sua conta.",
         "tie": "parece que empatamos! Ninguém ganhou ou perdeu.",
-        "you-lose": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`. Parece que eu ganhei, yay! Estou tirando `{{value}}` yens da sua conta, ok?",
+        "you-lose": "você escolheu `{{me}}` e eu escolhi `{{clientChoice}}`, parece que eu ganhei, yay, estou tirando `{{value}}` yens da sua conta, ok?",
         "value-not-inputed": "você não colocou nenhum valor para apostar comigo."
     },
     "no-premium": "este servidor não é premium, parceiro ou verificado.",
@@ -56,6 +56,8 @@
         "title": "Configurações de módulos",
         "how-use": "Como usar",
         "channel-null": "eu não encontrei nenhum canal, você tem certeza que você colocou algo ou um ID válido?",
+        "invalid-number": "este não é um numero válido, por favor use um numero valido.",
+        "more-of-2": "o numero indicado não é maior que 2, use um numero maior!",
         "report": {
             "title": "Módulo de denúncias",
             "disable": "módulo de denúncias desativado com sucesso.",
@@ -72,6 +74,15 @@
             "title": "Módulo da Rádio Animu"
         },
         "modules": "Módulos",
+        "antiflood": {
+            "title": "Modulo Anti Flood",
+            "enable": "AntiFlood ativado com sucesso.",
+            "disabled": "AntiFlood desativado com sucesso.",
+            "messageslimit-changed": "o numero de mensagens para eu considerar um flood foi alterado para `{{nbm}}`",
+            "already-disabled": "o módulo já está desativado",
+            "already-enabled": "o módulo já está ativado",
+            "options-not-found": "esta opção não foi encontrada, opções disponíveis: `disable`, `enable`, `messageslimit`"
+        },
         "config-modules": {
             "punishment": {
                 "channel": "Canal de moderação",
@@ -89,7 +100,7 @@
             "disable": "Desativado"
         },
         "no-channel": "Não definido.",
-        "module-not-found": "este módulo não foi encontrado, módulos existentes: `punishment`, `report`, `animu`.",
+        "module-not-found": "este módulo não foi encontrado, módulos existentes: `punishment`, `report`, `animu`, `antiflood`.",
         "options-not-found": "esta opção não foi encontrada, opções disponíveis: `set`, `disable`"
     },
     "report": {
@@ -259,7 +270,8 @@
     "dj": "Bom, a permissão de `DJ` foi criada para evitar que abusem dos comandos de música (como pular a música que você está escutando ou me tirando do canal de voz em que você também se encotra). Para conseguir essa permissão, você precisa ter permissão para `Gerenciar servidor`, `Banir membros` ou ter o cargo com o nome `DJ`, feito isso, bom divertimento e aproveite os meus comandos de música, até logo.",
     "eat": "{{author}} deu comida para {{member}}",
     "emoji": {
-        "args-null": "indique o emoji que você deseja."
+        "args-null": "indique o emoji que você deseja.",
+        "emoji-not-found": "eu não consegui encontrar nenhum emoji."
     },
     "emojiinfo": {
         "name": "Nome do emoji",
@@ -357,7 +369,8 @@
         "success": "meu prefix foi alterado com sucesso."
     },
     "removeemoji": {
-        "success": "emoji removido com sucesso."
+        "success": "emoji removido com sucesso.",
+        "no-guild": "eu não posso remover um emoji que não está neste servidor."
     },
     "removerole": {
         "noRole": "o usuário não está com esse cargo.",
